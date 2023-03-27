@@ -1,3 +1,51 @@
+//if
+
+if (condition) {
+    statment
+}
+//if else
+if (condition) {
+    statment
+} else {
+    statment
+}
+
+//if else if
+if (condition) {
+    statment - 1
+} else if(condition 2) {
+    statment - 2
+} else if(condition 3) {
+    statment - 3
+} else {
+
+}
+
+
+//Example
+
+var per = 55;
+if (per >= 80 && per<=100 ) {
+    document.write("You are in Merit.You got A+");
+}else if (per >= 60 && per < 80 ) {
+    document.write("You are in Merit.You Got A");
+}else if (per >= 40 && per < 60 ) {
+    document.write("You are in Merit.You Got A-");
+}else if( per < 40) {
+    document.write("You are not in Merit.You Failed");
+}else{
+    document.write("Enter Your Valid Number.");
+};
+
+
+
+
+
+
+
+
+
+
 // Nested if statements in JavaScript are simply if statements that are contained within other if statements.They allow you to check for multiple conditions and execute different code blocks based on the result of those conditions.
 
 //     Here's an example code snippet that demonstrates the use of nested if statements in JavaScript:
